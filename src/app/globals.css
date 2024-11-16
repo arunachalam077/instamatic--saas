@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-infinite-scroll {
+    animation: infinite-scroll 30s linear infinite;
+  }
+  .insta-x-bot-text,
+  .insta-x-bot-icon {
+    font-family: 'Serif', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .insta-x-bot-icon {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  }
+  
+  .insta-x-bot-text:hover,
+  .insta-x-bot-icon:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
+  }
+  
+  /* For the icon, we need to use drop-shadow instead of text-shadow */
+  .insta-x-bot-icon:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
+  }
