@@ -13,7 +13,7 @@ export const Navbar = () => {
             
           <div className="relative flex items-center">
               <BotIcon className="w-9 h-9 mr-2 insta-x-bot-icon" />
-              <div className='insta-x-bot-text'>InstaX bot</div>
+              <div className='insta-x-bot-text'>Instamatic</div>
             </div>
             <div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
               <MenuIcon className="text-white" />
