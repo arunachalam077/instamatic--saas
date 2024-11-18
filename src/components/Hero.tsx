@@ -14,7 +14,7 @@ export const Hero = () => {
      ``   <div className="flex justify-center mt-8 ">
           <div className="inline-flex relative">
             <h1 className="text-7xl sm:text-9xl tracking-tighter text-center inline-flex bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] bg-clip-text text-transparent font-extrabold font-serif relative z-10 transition-all duration-300 ease-in-out hover:scale-105 hover:tracking-widetext-7xl sm:text-9xl tracking-tighter text-center inline-flex bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] bg-clip-text text-transparent font-extrabold font-serif relative z-10">
-              Insta<br /> matic
+              Instamatic
             </h1>
 
             <motion.div className="absolute right-[478px] top-[108px] hidden sm:inline" drag dragSnapToOrigin>
